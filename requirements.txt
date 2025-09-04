@@ -1,4 +1,4 @@
-discord.py
-flask
-pymongo
-dnspython
+discord.py==2.6.3
+Flask==3.1.2
+pymongo[srv]==4.14.1
+dnspython==2.7.0
