@@ -22,3 +22,50 @@ It is designed to run **24/7 for free** using **Render, MongoDB Atlas, and Uptim
 
 ### 2. Install dependencies
 ```pip install -r requirements.txt```
+
+### 3. Environment Variables
+
+Create a .env file (for local testing) or add these in Render’s Environment settings:
+
+```BOT_TOKEN=your_discord_bot_token_here```
+```MONGO_URI=your_mongodb_connection_uri_here```
+
+### 4. Run the bot
+
+```python bot.py```
+
+## 🚀 Deployment
+
+This bot is deployed for free using:
+
+### Render
+ → Python hosting
+
+### MongoDB Atlas
+ → Free database
+
+### UptimeRobot
+ → Keeps bot alive 24/7
+
+## 📦 requirements.txt
+
+Make sure your requirements.txt file contains the following:
+
+```discord.py```
+```flask```
+```pymongo```
+```dnspython```
+
+## 📜 License
+
+This project is open-source under the MIT License.
+
+## 🤝 Contributing
+
+Pull requests are welcome! Feel free to suggest features or improvements.
+
+## 👤 Author
+
+Made with 🖤 by Nanami
+
+---
